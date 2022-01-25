@@ -1,4 +1,5 @@
-### Hi there 👋
+[![Pari Khaleghi's github stats](https://github-readme-stats.vercel.app/api?username=PariKhaleghi)](https://github.com/anuraghazra/github-readme-stats)
+[![Pari Khaleghi's github stats](https://github-readme-stats.vercel.app/api/top-langs?username=PariKhaleghi)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **PariKhaleghi/PariKhaleghi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -1,6 +1,6 @@
 <hr>
-<div align="center">
-README.md last auto generated {timestamp}
+<div align="right">
+آخرین بروزرسانی پروفایل در {timestamp}
 <br>
-<a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile</a>
+<a href="https://parikhaleghi.ir" target="_blank">سازوکار این پروفایل</a>
 </div>

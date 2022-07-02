@@ -21,7 +21,7 @@ def update_readme_medium_posts(Pari_post_path, readme_base, join_on):
     return readme_base[:readme_base.find(rss_title)] + f"{join_on}\n{posts_joined}"
 
 
-rss_title = "### آخرین پست های پریسا در [parikhaleghi.ir](https://parikhaleghi.ir)"
+rss_title = "### آخرین پست‌های من در [parikhaleghi.ir](https://parikhaleghi.ir)"
 readme = Path('./README.md').read_text()
 updated_readme = update_readme_medium_posts(
     "https://parikhaleghi.ir/feed/", readme, rss_title)

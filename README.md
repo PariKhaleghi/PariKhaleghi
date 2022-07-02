@@ -12,7 +12,7 @@
 - [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت دوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-2/)</td></tr></table>
 <hr>
 <div align="center">
-README.md last auto generated Sat Jul  2 07:19:13 2022
+README.md last auto generated Sat Jul  2 07:22:51 2022
 <br>
 <a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile.</a>
 </div>

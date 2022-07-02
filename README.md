@@ -1,4 +1,4 @@
-### آخرین پست های پریسا در [parikhaleghi.ir](https://parikhaleghi.ir)
+### آخرین پست‌های من در [parikhaleghi.ir](https://parikhaleghi.ir)
 - [بخش ۰ – معرفی Intel® Stratix® ۱۰](https://parikhaleghi.ir/2022/05/30/0-intel-stratix-10/)
 - [Event Loop به زبان ساده!](https://parikhaleghi.ir/2022/05/16/basic-event-loop/)
 - [توابع ذاتی در MSVC، به خوبیِ اسمبلر درون‌خطی هستند؟](https://parikhaleghi.ir/2022/04/12/intrinsics/)

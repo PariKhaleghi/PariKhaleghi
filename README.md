@@ -12,7 +12,7 @@
 <hr>
 </div>
 <div align="right">
-آخرین بروزرسانی پروفایل در Sat Jul  2 10:29:21 2022
+آخرین بروزرسانی پروفایل در Sat Jul  2 10:30:16 2022
 <br>
-<a href="https://parikhaleghi.ir" target="_blank">سازوکار این پروفایل</a> . [![cron](https://github.com/Mehranalam/PariKhaleghi/actions/workflows/cron.yml/badge.svg)](https://github.com/Mehranalam/PariKhaleghi/actions/workflows/cron.yml)
+<a href="https://parikhaleghi.ir" target="_blank">سازوکار این پروفایل</a> . <a href="https://github.com/Mehranalam/PariKhaleghi/actions/workflows /cron.yml">https://github.com/Mehranalam/PariKhaleghi/actions/workflows/cron.yml/badge.svg</a>
 </div>

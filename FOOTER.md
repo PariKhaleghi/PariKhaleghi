@@ -1,7 +1,7 @@
 <div align="right">
 <hr>
 </div>
-<div align="right">
+<div align="left">
 README.md last auto generated {timestamp}
 <br>
 <a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile</a>

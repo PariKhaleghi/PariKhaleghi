@@ -23,7 +23,7 @@ jobs:
         run: pip install feedparser pytz
       - name: 🍳 Update README
         run: |
-          cd ${GITHUB_WORKSPACE}/src/
+          cd ${GITHUB_WORKSPACE}/
           python build.py
       - name: 🚀 Deploy
         run: |

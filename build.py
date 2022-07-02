@@ -15,10 +15,11 @@ def update_footer():
 def update_readme_medium_posts(Pari_post_path, readme_base, join_on):
     d = feedparser.parse(Pari_post_path)
     posts = []
-    posts.append("""<table><tr><td valign="top" width="33%">""")
     for item in d.entries:
+        posts.append("|")
         if item.get('tags'):
             posts.append(f"- [{item['title']}]({item['link']})")
+        posts.append("|")
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title)] + f"{join_on}\n{posts_joined}"
 

@@ -1,0 +1,34 @@
+name: cron
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "5 5 * * *"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🍽️ Get working copy
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1                                                                 
+      - name: 🐍 Set up Python 3.8                               
+        uses: actions/setup-python@v2                               
+        with:                                 
+          python-version: '3.8'                                                   
+      - name: 💿 Install feedparser & pytz                              
+        run: pip install feedparser pytz
+      - name: 🍳 Update README
+        run: |
+          cd ${GITHUB_WORKSPACE}/
+          python build.py
+      - name: 🚀 Deploy
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add .
+          git commit -am "feat(auto generate): Updated content"
+          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git

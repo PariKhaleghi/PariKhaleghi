@@ -1,4 +1,6 @@
+<div align="right">
 <hr>
+</div>
 <div align="right">
 آخرین بروزرسانی پروفایل در {timestamp}
 <br>

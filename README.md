@@ -8,9 +8,11 @@
 - [مشکلات consteval و std::is_constant_evaluated](https://parikhaleghi.ir/2022/02/21/cc-consteval/)
 - [الگوهای مخفف تابع در ++C](https://parikhaleghi.ir/2022/02/20/cc-abbreviated-function-templates/)
 - [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت سوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-3/)
-- [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت دوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-2/)<hr>
+- [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت دوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-2/)<div align="right">
+<hr>
+</div>
 <div align="right">
-آخرین بروزرسانی پروفایل در Sat Jul  2 10:09:17 2022
+آخرین بروزرسانی پروفایل در Sat Jul  2 10:11:06 2022
 <br>
 <a href="https://parikhaleghi.ir" target="_blank">سازوکار این پروفایل</a>
 </div>

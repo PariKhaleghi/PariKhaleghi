@@ -12,9 +12,9 @@
 <hr>
 </div>
 <div align="right">
-آخرین بروزرسانی پروفایل در Sat Jul  2 10:32:58 2022
+README.md last auto generated Sat Jul  2 10:34:24 2022
 <br>
-<a href="https://parikhaleghi.ir" target="_blank">سازوکار این پروفایل</a>
+<a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile</a>
 </div>
 <div align="left">
 <a href="https://github.com/Mehranalam/PariKhaleghi/actions/workflows/cron.yml"><img src="https://github.com/Mehranalam/PariKhaleghi/actions/workflows/cron.yml/badge.svg"></a>

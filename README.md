@@ -11,8 +11,8 @@
 - [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت دوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-2/)<div align="right">
 <hr>
 </div>
-<div align="right">
-README.md last auto generated Sat Jul  2 10:34:24 2022
+<div align="left">
+README.md last auto generated Sat Jul  2 10:35:47 2022
 <br>
 <a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile</a>
 </div>

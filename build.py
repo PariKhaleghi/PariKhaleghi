@@ -27,6 +27,6 @@ def update_readme_medium_posts(Pari_post_path, readme_base, join_on):
 rss_title = "### آخرین پست های من در "
 readme = Path('./README.md').read_text()
 updated_readme = update_readme_medium_posts(
-    "https://medium.com/feed/@dylanroy", readme, rss_title)
+    "parikhaleghi.ir", readme, rss_title)
 with open('./README.md', "w+") as f:
     f.write(updated_readme + update_footer())

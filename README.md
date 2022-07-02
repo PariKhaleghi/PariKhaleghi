@@ -12,7 +12,7 @@
 <hr>
 </div>
 <div align="right">
-آخرین بروزرسانی پروفایل در Sat Jul  2 10:11:06 2022
+آخرین بروزرسانی پروفایل در Sat Jul  2 10:26:54 2022
 <br>
 <a href="https://parikhaleghi.ir" target="_blank">سازوکار این پروفایل</a>
 </div>

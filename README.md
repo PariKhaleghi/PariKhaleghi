@@ -4,7 +4,8 @@
 - [c/experimental/dynamic/asprintf](https://en.cppreference.com/w/c/experimental/dynamic/asprintf) - Fri, 15 Jul 2022 15:35:29 GMT
 - [c/experimental/dynamic/asprintf](https://en.cppreference.com/w/c/experimental/dynamic/asprintf) - Fri, 15 Jul 2022 15:00:00 GMT
 - [c/experimental/dynamic/asprintf](https://en.cppreference.com/w/c/experimental/dynamic/asprintf) - Fri, 15 Jul 2022 14:57:44 GMT
-- [c/experimental/dynamic/asprintf](https://en.cppreference.com/w/c/experimental/dynamic/asprintf) - Fri, 15 Jul 2022 14:24:44 GMT<br> <br>### آخرین پست های پریسا در [parikhaleghi.ir](https://parikhaleghi.ir)
+- [c/experimental/dynamic/asprintf](https://en.cppreference.com/w/c/experimental/dynamic/asprintf) - Fri, 15 Jul 2022 14:24:44 GMT<br> <br>
+### آخرین پست های پریسا در [parikhaleghi.ir](https://parikhaleghi.ir)
 - [معرفی CI/CD](https://parikhaleghi.ir/2022/07/07/ci-cd/) - Thu, 07 Jul 2022 14:17:58 +0000
 - [بخش ۰ – معرفی Intel® Stratix® ۱۰](https://parikhaleghi.ir/2022/05/30/0-intel-stratix-10/) - Sun, 29 May 2022 22:08:53 +0000
 - [Event Loop به زبان ساده!](https://parikhaleghi.ir/2022/05/16/basic-event-loop/) - Mon, 16 May 2022 15:58:51 +0000
@@ -18,7 +19,7 @@
 <hr>
 </div>
 <div align="left">
-README.md last auto generated Sun Jul 17 02:53:01 2022
+README.md last auto generated Sun Jul 17 02:55:21 2022
 <br>
 <a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile</a>
 </div>

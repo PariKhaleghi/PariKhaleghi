@@ -1,8 +1,6 @@
 from pathlib import Path
 import datetime
-from pyparsing import empty
 import pytz
-from requests import post
 import feedparser
 
 

@@ -16,7 +16,7 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('tags'):
-            posts.append(f'''<a href="{item['link']}">{item['title']}</a>''')
+            posts.append(f'''- <a href="{item['link']}">{item['title']}</a><br><br>''')
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
 
@@ -26,7 +26,7 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('title'):
-            if f'''<a href="{item['link']}">{item['title']}</a>''' in posts:
+            if f'''- <a href="{item['link']}">{item['title']}</a><br><br>''' in posts:
                 continue
             else:
                 posts.append(

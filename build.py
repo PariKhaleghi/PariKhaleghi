@@ -49,5 +49,5 @@ updated_readme_blog = update_readme_Pari_posts(
 add_cpp_reference = get_post_from_cpp_reference(
     "https://en.cppreference.com/mwiki/api.php?action=feedcontributions&user=Parisakhaleghi&feedformat=rss", readme, rss_title_cppRef)
 with open('./README.md', "w+") as f:
-    f.write('''<table><tr><td valign="top" width="33%">'''+add_cpp_reference + '''</td><br> <br>\n''' +
-            '''<td valign="top" width="33%">'''+updated_readme_blog + '''</td></tr></table>''' + update_footer())
+    f.write('''<div align="right"><table><tr><td valign="top" width="33%">'''+add_cpp_reference + '''</td><br> <br>\n''' +
+            '''<td align="right" valign="top" width="33%">'''+updated_readme_blog + '''</td></tr></table></div>''' + update_footer())

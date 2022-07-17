@@ -16,7 +16,11 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('tags'):
-            posts.append(f'''- <a href="{item['link']}">{item['title']}</a><br><br>''')
+            posts.append(
+                f'''- <a href="{item['link']}">{item['title']}</a><br><br>''')
+
+    posts.append(
+        '''مطالب بیشتر در <a href="https://parikhaleghi.ir">Parikhalegi.ir</a>''')
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
 
@@ -32,6 +36,8 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
                 posts.append(
                     f'''- <a href="{item['link']}">{item['title']}</a><br><br>''')
 
+    posts.append(
+        '''مطالب بیشتر در <a href="https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1">cppreference</a>''')
     print(posts)
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_cppRef)] + f"{join_on}\n{posts_joined}"
@@ -40,7 +46,7 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
 with open("./README.md", 'w') as file:
     pass
 
-
+header_readme = '''<h1><a href="parikhalegi.ir">Parikhalegi</a> & <a href="https://en.cppreference.com/w/">cppreference</a>'''
 rss_title_blog = "<h4>آخرین پست های وبلاگ</h4>"
 rss_title_cppRef = "<h4>CppReference</h4>"
 readme = Path('./README.md').read_text()

@@ -2,7 +2,6 @@
 عاشق تجزیه و‌ تحلیل داده‌های آزمایشگاهی.
 محقق، پژوهشگر، توسعه‌دهنده و تحلیل‌گر داده‌های سیستم‌های EBSD - EDS روی میکروسکوپ‌های الکترونی FIB/SEM.
 هم اکنون مشغول در آزمایشگاه TEM و SEM [پرتو رایان رستاک.](https://partowrayan.com/)
-<br>
 <div align="center"><table><tr><td align="left" valign="top" width="33%"><h4>CppReference</h4>
 <a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a><br><br>
 More Contributing in <a href="https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1">cppreference</a></td><br> <br>
@@ -18,11 +17,11 @@ More Contributing in <a href="https://en.cppreference.com/mwiki/index.php?limit=
 <a href="https://parikhaleghi.ir/2022/02/20/cc-abbreviated-function-templates/">الگوهای مخفف تابع در ++C</a><br><br>
 <a href="https://parikhaleghi.ir/2022/02/15/cc-modules-part-3/">سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت سوّم</a><br><br>
 More Content in <a href="https://parikhaleghi.ir">Parikhalegi.ir</a></td></tr></table></div><hr>
-<div align="left">
-README.md last auto generated Sun Jul 17 16:44:58 2022
+<div align="center">
+README.md last auto generated Sun Jul 17 21:22:37 2022
 <br>
-<a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile</a>
+<a href="https://parikhaleghi.ir/2022/07/07/ci-cd/#:~:text=%D9%85%D8%AB%D8%A7%D9%84%3A%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20CI/CD%20%D8%AF%D8%B1%20%D8%A7%DA%A9%D8%A7%D9%86%D8%AA%20GitHub" target="_blank">The mechanism of this profile</a>
 </div>
-<div align="left">
-<a href="https://github.com/Mehranalam/PariKhaleghi/actions/workflows/cron.yml"><img src="https://github.com/Mehranalam/PariKhaleghi/actions/workflows/cron.yml/badge.svg"></a>
+<div align="center">
+<a href="https://github.com/PariKhaleghi/PariKhaleghi/actions/workflows/cron.yml"><img src="https://github.com/Mehranalam/PariKhaleghi/actions/workflows/cron.yml/badge.svg"></a>
 </div>

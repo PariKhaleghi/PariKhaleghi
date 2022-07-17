@@ -1,6 +1,4 @@
-<div align="right">
 <hr>
-</div>
 <div align="left">
 README.md last auto generated {timestamp}
 <br>

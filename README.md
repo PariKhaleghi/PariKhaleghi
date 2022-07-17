@@ -12,7 +12,7 @@
 - <a href="https://parikhaleghi.ir/2022/02/20/cc-abbreviated-function-templates/">الگوهای مخفف تابع در ++C</a><br><br>
 - <a href="https://parikhaleghi.ir/2022/02/15/cc-modules-part-3/">سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت سوّم</a><br><br></td></tr></table></div><hr>
 <div align="left">
-README.md last auto generated Sun Jul 17 20:27:35 2022
+README.md last auto generated Sun Jul 17 15:58:03 2022
 <br>
 <a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile</a>
 </div>

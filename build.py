@@ -30,7 +30,7 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
                 continue
             else:
                 posts.append(
-                    f'''<a href="{item['link']}">{item['title']}</a>''')
+                    f'''- <a href="{item['link']}">{item['title']}</a><br><br>''')
 
     print(posts)
     posts_joined = '\n'.join(posts)

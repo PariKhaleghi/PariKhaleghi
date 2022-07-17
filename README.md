@@ -1,8 +1,9 @@
-<br>
 یه برنامه‌نویس جونیور R و ++C هستم.
 عاشق تجزیه و‌ تحلیل داده‌های آزمایشگاهی.
 محقق، پژوهشگر، توسعه‌دهنده و تحلیل‌گر داده‌های سیستم‌های EBSD - EDS روی میکروسکوپ‌های الکترونی FIB/SEM.
-هم اکنون مشغول در آزمایشگاه TEM و SEM [پرتو رایان رستاک.](https://partowrayan.com/)<div align="center"><table><tr><td align="left" valign="top" width="33%"><h4>CppReference</h4>
+هم اکنون مشغول در آزمایشگاه TEM و SEM [پرتو رایان رستاک.](https://partowrayan.com/)
+<br>
+<div align="center"><table><tr><td align="left" valign="top" width="33%"><h4>CppReference</h4>
 <a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a><br><br>
 More Contributing in <a href="https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1">cppreference</a></td><br> <br>
 <td align="right" valign="top" width="33%"><h4>آخرین پست های وبلاگ</h4>
@@ -18,7 +19,7 @@ More Contributing in <a href="https://en.cppreference.com/mwiki/index.php?limit=
 <a href="https://parikhaleghi.ir/2022/02/15/cc-modules-part-3/">سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت سوّم</a><br><br>
 More Content in <a href="https://parikhaleghi.ir">Parikhalegi.ir</a></td></tr></table></div><hr>
 <div align="left">
-README.md last auto generated Sun Jul 17 21:05:42 2022
+README.md last auto generated Sun Jul 17 21:08:39 2022
 <br>
 <a href="https://parikhaleghi.ir" target="_blank">The mechanism of this profile</a>
 </div>

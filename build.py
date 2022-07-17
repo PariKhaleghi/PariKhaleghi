@@ -46,7 +46,7 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
 with open("./README.md", 'w') as file:
     pass
 
-header_readme = '''<h1><a href="parikhalegi.ir">Parikhalegi</a> & <a href="https://en.cppreference.com/w/">cppreference</a>'''
+header_readme = '''<div align="center"><h1><a href="parikhalegi.ir">Parikhalegi</a> & <a href="https://en.cppreference.com/w/">cppreference</a></div>'''
 rss_title_blog = "<h4>آخرین پست های وبلاگ</h4>"
 rss_title_cppRef = "<h4>CppReference</h4>"
 readme = Path('./README.md').read_text()

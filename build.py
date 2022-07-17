@@ -11,6 +11,11 @@ def update_footer():
     return footer.format(timestamp=timestamp)
 
 
+def header():
+    header = Path('./HEADER.md').read_text()
+    return header
+
+
 def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
     d = feedparser.parse(Pari_post_path)
     posts = []
@@ -46,7 +51,6 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
 with open("./README.md", 'w') as file:
     pass
 
-header_readme = '''<div align="center"><h1><a href="parikhalegi.ir">Parikhalegi</a> & <a href="https://en.cppreference.com/w/">cppreference</a></div>'''
 rss_title_blog = "<h4>آخرین پست های وبلاگ</h4>"
 rss_title_cppRef = "<h4>CppReference</h4>"
 readme = Path('./README.md').read_text()
@@ -55,5 +59,5 @@ updated_readme_blog = update_readme_Pari_posts(
 add_cpp_reference = get_post_from_cpp_reference(
     "https://en.cppreference.com/mwiki/api.php?action=feedcontributions&user=Parisakhaleghi&feedformat=rss", readme, rss_title_cppRef)
 with open('./README.md', "w+") as f:
-    f.write('''<div align="center"><table><tr><td align="left" valign="top" width="33%">'''+add_cpp_reference + '''</td><br> <br>\n''' +
+    f.write(header()+'''<div align="center"><table><tr><td align="left" valign="top" width="33%">'''+add_cpp_reference + '''</td><br> <br>\n''' +
             '''<td align="right" valign="top" width="33%">'''+updated_readme_blog + '''</td></tr></table></div>''' + update_footer())

@@ -30,7 +30,7 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('title'):
-            if f'''- <a href="{item['link']}">{item['title']}</a><br><br>''' in posts:
+            if f'''<a href="{item['link']}">{item['title']}</a><br><br>''' in posts:
                 continue
             else:
                 posts.append(

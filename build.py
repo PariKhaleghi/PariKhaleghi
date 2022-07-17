@@ -17,10 +17,10 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
     for item in d.entries:
         if item.get('tags'):
             posts.append(
-                f'''- <a href="{item['link']}">{item['title']}</a><br><br>''')
+                f'''<a href="{item['link']}">{item['title']}</a><br><br>''')
 
     posts.append(
-        '''مطالب بیشتر در <a href="https://parikhaleghi.ir">Parikhalegi.ir</a>''')
+        '''More Content in <a href="https://parikhaleghi.ir">Parikhalegi.ir</a>''')
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
 
@@ -34,10 +34,10 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
                 continue
             else:
                 posts.append(
-                    f'''- <a href="{item['link']}">{item['title']}</a><br><br>''')
+                    f'''<a href="{item['link']}">{item['title']}</a><br><br>''')
 
     posts.append(
-        '''مطالب بیشتر در <a href="https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1">cppreference</a>''')
+        '''More Contributing in <a href="https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1">cppreference</a>''')
     print(posts)
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_cppRef)] + f"{join_on}\n{posts_joined}"

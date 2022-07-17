@@ -16,7 +16,7 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('tags'):
-            posts.append(f'''<td><a href="{item['link']}">{item['title']}</a></td>''')
+            posts.append(f'''<a href="{item['link']}">{item['title']}</a>''')
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
 
@@ -26,11 +26,11 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('title'):
-            if f"- [{item['title']}]({item['link']})" in posts:
+            if f'''<a href="{item['link']}">{item['title']}</a>''' in posts:
                 continue
             else:
                 posts.append(
-                    f"- [{item['title']}]({item['link']})")
+                    f'''<a href="{item['link']}">{item['title']}</a>''')
 
     print(posts)
     posts_joined = '\n'.join(posts)
@@ -41,13 +41,13 @@ with open("./README.md", 'w') as file:
     pass
 
 
-rss_title_blog = "<tr><th><h4>آخرین پست های وبلاگ</h4></th></tr>"
-rss_title_cppRef = "<tr><td><h4>CppReference</h4></td><tr>"
+rss_title_blog = "<h4>آخرین پست های وبلاگ</h4>"
+rss_title_cppRef = "<h4>CppReference</h4>"
 readme = Path('./README.md').read_text()
 updated_readme_blog = update_readme_Pari_posts(
     "https://parikhaleghi.ir/feed/", readme, rss_title_blog)
 add_cpp_reference = get_post_from_cpp_reference(
     "https://en.cppreference.com/mwiki/api.php?action=feedcontributions&user=Parisakhaleghi&feedformat=rss", readme, rss_title_cppRef)
 with open('./README.md', "w+") as f:
-    f.write(add_cpp_reference + "<br> <br>\n" +
-            "<table>"+updated_readme_blog + "</table>" + update_footer())
+    f.write("<table><td>"+add_cpp_reference + "</td><br> <br>\n" +
+            "<td>"+updated_readme_blog + "</td></table>" + update_footer())

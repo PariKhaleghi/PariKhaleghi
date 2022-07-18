@@ -22,12 +22,12 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
     for item in d.entries:
         if item.get('tags'):
             posts.append(
-                f'''| [{item['title']}]({item['link']}) |''')
+                f'''[{item['title']}]({item['link']})''')
 
     posts.append(
         '''More Content in [Parikhalegi.ir](https://parikhaleghi.ir)''')
     posts_joined = '\n'.join(posts)
-    return readme_base[:readme_base.find(rss_title_blog)] + "| ----------- | ----------- |" + f"{join_on}\n{posts_joined}"
+    return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
 
 
 def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
@@ -35,24 +35,24 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('title'):
-            if f'''| [{item['title']}]({item['link']}) |''' in posts:
+            if f'''[{item['title']}]({item['link']})''' in posts:
                 continue
             else:
                 posts.append(
-                    f'''| [{item['title']}]({item['link']}) |''')
+                    f'''[{item['title']}]({item['link']})''')
 
     posts.append(
         '''More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)''')
     print(posts)
     posts_joined = '\n'.join(posts)
-    return readme_base[:readme_base.find(rss_title_cppRef)] + "| ----------- | ----------- |" + f"{join_on}\n{posts_joined}"
+    return readme_base[:readme_base.find(rss_title_cppRef)] + f"{join_on}\n{posts_joined}"
 
 
 with open("./README.md", 'w') as file:
     pass
 
-rss_title_blog = "| آخرین پست های وبلاگ |"
-rss_title_cppRef = "| CppReference |"
+rss_title_blog = "آخرین پست های وبلاگ"
+rss_title_cppRef = "CppReference"
 readme = Path('./README.md').read_text()
 updated_readme_blog = update_readme_Pari_posts(
     "https://parikhaleghi.ir/feed/", readme, rss_title_blog)

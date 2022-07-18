@@ -35,11 +35,11 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('title'):
-            if f'''- [{item['title']}]({item['link']})''' in posts:
+            if f'''<a href="{item['title']}">{item['link']}</a>''' in posts:
                 continue
             else:
                 posts.append(
-                    f'''- [{item['title']}]({item['link']})''')
+                    f'''<a href="{item['title']}">{item['link']}</a>''')
 
     posts.append(
         '''<br><br>*More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)*''')
@@ -60,7 +60,7 @@ add_cpp_reference = get_post_from_cpp_reference(
     "https://en.cppreference.com/mwiki/api.php?action=feedcontributions&user=Parisakhaleghi&feedformat=rss", readme, rss_title_cppRef)
 with open('./README.md', "w+") as f:
     f.write(header() + updated_readme_blog + "<br><br>"
-            + add_cpp_reference + update_footer())
+            + '''<div align="left">''' + add_cpp_reference + '''</div>''' + update_footer())
 
 
 '''<a href="https://github.com/simonw/simonw/actions">

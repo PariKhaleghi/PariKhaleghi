@@ -35,11 +35,11 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('title'):
-            if f'''<a href="{item['link']}">{item['title']}</a><br><br>''' in posts:
+            if f'''<a href="{item['link']}">{item['title']}</a>''' in posts:
                 continue
             else:
                 posts.append(
-                    f'''<a href="{item['link']}">{item['title']}</a><br><br>''')
+                    f'''<a href="{item['link']}">{item['title']}</a>''')
 
     posts.append(
         '''<br><br>*More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)*''')
@@ -52,7 +52,7 @@ with open("./README.md", 'w') as file:
     pass
 
 rss_title_blog = "آخرین پست های وبلاگ"
-rss_title_cppRef = "CppReference"
+rss_title_cppRef = "CppReference<br><br>"
 readme = Path('./README.md').read_text()
 updated_readme_blog = update_readme_Pari_posts(
     "https://parikhaleghi.ir/feed/", readme, rss_title_blog)

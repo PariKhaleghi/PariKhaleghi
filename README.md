@@ -21,7 +21,7 @@
 <li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
 <li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
 <li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
-<br><br>*More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)*</div><hr>
+<br><p><i>More Contributing in <a href="https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1">cppreference</a></i></p></div><hr>
 <!-- <div align="center">
 README.md last auto generated {timestamp}
 <br> -->

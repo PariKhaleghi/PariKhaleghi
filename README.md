@@ -5,6 +5,10 @@
 | CppReference |
 | [c/experimental/dynamic/asprintf](https://en.cppreference.com/w/c/experimental/dynamic/asprintf) |
 More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)<br> <br>
+
+> | name | issue page | project link | programing language(s) | state | Title |
+> |:----:|:----------:|:------------:|:-----------------------|:-----:|:------|
+> | wish | [issue](https://github.com/DistroTEAM/wish/issues/) |[repo](https://github.com/DistroTEAM/wish)| ![markdown](https://b2n.ir/z61490) | building | issue what program do you wish to have |
 | آخرین پست های وبلاگ |
 | [معرفی CI/CD](https://parikhaleghi.ir/2022/07/07/ci-cd/) |
 | [بخش ۰ – معرفی Intel® Stratix® ۱۰](https://parikhaleghi.ir/2022/05/30/0-intel-stratix-10/) |

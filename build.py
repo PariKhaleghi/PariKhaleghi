@@ -27,7 +27,7 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
     posts.append(
         '''More Content in [Parikhalegi.ir](https://parikhaleghi.ir)''')
     posts_joined = '\n'.join(posts)
-    return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
+    return readme_base[:readme_base.find(rss_title_blog)] + "| ----------- | ----------- |" + f"{join_on}\n{posts_joined}"
 
 
 def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
@@ -45,7 +45,7 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
         '''More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)''')
     print(posts)
     posts_joined = '\n'.join(posts)
-    return readme_base[:readme_base.find(rss_title_cppRef)] + f"{join_on}\n{posts_joined}"
+    return readme_base[:readme_base.find(rss_title_cppRef)] + "| ----------- | ----------- |" + f"{join_on}\n{posts_joined}"
 
 
 with open("./README.md", 'w') as file:
@@ -59,8 +59,8 @@ updated_readme_blog = update_readme_Pari_posts(
 add_cpp_reference = get_post_from_cpp_reference(
     "https://en.cppreference.com/mwiki/api.php?action=feedcontributions&user=Parisakhaleghi&feedformat=rss", readme, rss_title_cppRef)
 with open('./README.md', "w+") as f:
-    f.write(header()+ add_cpp_reference +"|---|---|---|---|---|"+ '''<br> <br>\n'''
-            +updated_readme_blog +update_footer())
+    f.write(header() + add_cpp_reference
+            + updated_readme_blog + update_footer())
 
 
 '''<a href="https://github.com/simonw/simonw/actions">

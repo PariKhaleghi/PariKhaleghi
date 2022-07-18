@@ -15,7 +15,12 @@
 - [الگوهای مخفف تابع در ++C](https://parikhaleghi.ir/2022/02/20/cc-abbreviated-function-templates/)
 - [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت سوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-3/)
 <br><br>- *محتوا‌های مفید دیگر در [Parikhalegi.ir](https://parikhaleghi.ir)*<br><br><div align="left"><h3>CppReference</h3><br>
-<a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a>
+<li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
+<li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
+<li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
+<li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
+<li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
+<li><a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a></li>
 <br><br>*More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)*</div><hr>
 <!-- <div align="center">
 README.md last auto generated {timestamp}

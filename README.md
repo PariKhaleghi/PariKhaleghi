@@ -14,11 +14,11 @@
 - [مشکلات consteval و std::is_constant_evaluated](https://parikhaleghi.ir/2022/02/21/cc-consteval/)
 - [الگوهای مخفف تابع در ++C](https://parikhaleghi.ir/2022/02/20/cc-abbreviated-function-templates/)
 - [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت سوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-3/)
-<br><br>*More Content in [Parikhalegi.ir](https://parikhaleghi.ir)*<br><br>CppReference
-- [c/experimental/dynamic/asprintf](https://en.cppreference.com/w/c/experimental/dynamic/asprintf)
-<br><br>*More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)*<hr>
+<br><br>*More Content in [Parikhalegi.ir](https://parikhaleghi.ir)*<br><br><div align="left">CppReference
+<a href="c/experimental/dynamic/asprintf">https://en.cppreference.com/w/c/experimental/dynamic/asprintf</a>
+<br><br>*More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)*</div><hr>
 <div align="center">
-README.md last auto generated Mon Jul 18 12:35:40 2022
+README.md last auto generated Mon Jul 18 17:11:29 2022
 <br>
 <a href="https://parikhaleghi.ir/2022/07/07/ci-cd/#:~:text=%D9%85%D8%AB%D8%A7%D9%84%3A%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20CI/CD%20%D8%AF%D8%B1%20%D8%A7%DA%A9%D8%A7%D9%86%D8%AA%20GitHub" target="_blank">The mechanism of this profile</a>
 </div>

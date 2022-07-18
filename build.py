@@ -22,7 +22,7 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
     for item in d.entries:
         if item.get('tags'):
             posts.append(
-                f'''[{item['title']}]({item['link']})''')
+                f'''- [{item['title']}]({item['link']})''')
 
     posts.append(
         '''More Content in [Parikhalegi.ir](https://parikhaleghi.ir)''')
@@ -35,11 +35,11 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('title'):
-            if f'''[{item['title']}]({item['link']})''' in posts:
+            if f'''- [{item['title']}]({item['link']})''' in posts:
                 continue
             else:
                 posts.append(
-                    f'''[{item['title']}]({item['link']})''')
+                    f'''- [{item['title']}]({item['link']})''')
 
     posts.append(
         '''More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)''')
@@ -59,7 +59,7 @@ updated_readme_blog = update_readme_Pari_posts(
 add_cpp_reference = get_post_from_cpp_reference(
     "https://en.cppreference.com/mwiki/api.php?action=feedcontributions&user=Parisakhaleghi&feedformat=rss", readme, rss_title_cppRef)
 with open('./README.md', "w+") as f:
-    f.write(header() + add_cpp_reference
+    f.write(header() + add_cpp_reference+"<br><br>"
             + updated_readme_blog + update_footer())
 
 

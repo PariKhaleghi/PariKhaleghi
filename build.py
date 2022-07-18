@@ -35,11 +35,11 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
     posts = []
     for item in d.entries:
         if item.get('title'):
-            if f'''<a href="{item['title']}">{item['link']}</a>''' in posts:
+            if f'''<a href="{item['link']}">{item['title']}</a>''' in posts:
                 continue
             else:
                 posts.append(
-                    f'''<a href="{item['title']}">{item['link']}</a>''')
+                    f'''<a href="{item['link']}">{item['title']}</a>''')
 
     posts.append(
         '''<br><br>*More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)*''')

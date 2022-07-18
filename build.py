@@ -8,7 +8,7 @@ def update_footer():
     timestamp = datetime.datetime.now(
         pytz.timezone("Asia/Tehran")).strftime("%c")
     footer = Path('./FOOTER.md').read_text()
-    return footer.format(timestamp=timestamp)
+    return footer
 
 
 def header():

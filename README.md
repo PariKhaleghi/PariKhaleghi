@@ -5,10 +5,6 @@
 | CppReference |
 | [c/experimental/dynamic/asprintf](https://en.cppreference.com/w/c/experimental/dynamic/asprintf) |
 More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1)<br> <br>
-
-> | name | issue page | project link | programing language(s) | state | Title |
-> |:----:|:----------:|:------------:|:-----------------------|:-----:|:------|
-> | wish | [issue](https://github.com/DistroTEAM/wish/issues/) |[repo](https://github.com/DistroTEAM/wish)| ![markdown](https://b2n.ir/z61490) | building | issue what program do you wish to have |
 | آخرین پست های وبلاگ |
 | [معرفی CI/CD](https://parikhaleghi.ir/2022/07/07/ci-cd/) |
 | [بخش ۰ – معرفی Intel® Stratix® ۱۰](https://parikhaleghi.ir/2022/05/30/0-intel-stratix-10/) |
@@ -22,7 +18,7 @@ More Contributing in [cppreference](https://en.cppreference.com/mwiki/index.php?
 | [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت سوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-3/) |
 More Content in [Parikhalegi.ir](https://parikhaleghi.ir)<hr>
 <div align="center">
-README.md last auto generated Mon Jul 18 11:52:53 2022
+README.md last auto generated Mon Jul 18 11:53:41 2022
 <br>
 <a href="https://parikhaleghi.ir/2022/07/07/ci-cd/#:~:text=%D9%85%D8%AB%D8%A7%D9%84%3A%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20CI/CD%20%D8%AF%D8%B1%20%D8%A7%DA%A9%D8%A7%D9%86%D8%AA%20GitHub" target="_blank">The mechanism of this profile</a>
 </div>

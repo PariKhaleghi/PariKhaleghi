@@ -25,7 +25,7 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
                 f'''- [{item['title']}]({item['link']})''')
 
     posts.append(
-        '''<br><br>*More Content in [Parikhalegi.ir](https://parikhaleghi.ir)*''')
+        '''<br><br>- *محتوا‌های مفید دیگر در [Parikhalegi.ir](https://parikhaleghi.ir)*''')
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
 
@@ -52,7 +52,7 @@ with open("./README.md", 'w') as file:
     pass
 
 rss_title_blog = "<h3>آخرین پست های وبلاگ</h3>"
-rss_title_cppRef = "<h3>CppReference</h3><br><br>"
+rss_title_cppRef = "<h3>CppReference</h3><br>"
 readme = Path('./README.md').read_text()
 updated_readme_blog = update_readme_Pari_posts(
     "https://parikhaleghi.ir/feed/", readme, rss_title_blog)
@@ -63,6 +63,6 @@ with open('./README.md', "w+") as f:
             + '''<div align="left">''' + add_cpp_reference + '''</div>''' + update_footer())
 
 
-'''<a href="https://github.com/simonw/simonw/actions">
-<img src="https://github.com/simonw/simonw/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a> 
-<a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">How this works</a>'''
+'''<a href="https://github.com/parikhaleghi/parikhaleghi/actions">
+<img src="https://github.com/parikhaleghi/parikhaleghi/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a> 
+<a href="https://parikhaleghi.ir/2022/07/07/ci-cd/">How this works</a>'''

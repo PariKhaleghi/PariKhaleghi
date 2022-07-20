@@ -4,8 +4,6 @@
 
 محقق، پژوهشگر، توسعه‌دهنده و تحلیل‌گر داده‌های سیستم‌های EBSD - EDS روی میکروسکوپ‌های الکترونی FIB/SEM.
 هم اکنون مشغول در آزمایشگاه TEM و SEM [پرتو رایان رستاک.](https://partowrayan.com/)
-<br>
-<br>
 ### آخرین پست های وبلاگ
 - [معرفی CI/CD](https://parikhaleghi.ir/2022/07/07/ci-cd/)
 - [بخش ۰ – معرفی Intel® Stratix® ۱۰](https://parikhaleghi.ir/2022/05/30/0-intel-stratix-10/)

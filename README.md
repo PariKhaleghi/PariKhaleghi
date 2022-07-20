@@ -6,7 +6,7 @@
 هم اکنون مشغول در آزمایشگاه TEM و SEM [پرتو رایان رستاک.](https://partowrayan.com/)
 <br>
 <br>
-<h3>آخرین پست های وبلاگ</h3>
+### آخرین پست های وبلاگ
 - [معرفی CI/CD](https://parikhaleghi.ir/2022/07/07/ci-cd/)
 - [بخش ۰ – معرفی Intel® Stratix® ۱۰](https://parikhaleghi.ir/2022/05/30/0-intel-stratix-10/)
 - [Event Loop به زبان ساده!](https://parikhaleghi.ir/2022/05/16/basic-event-loop/)

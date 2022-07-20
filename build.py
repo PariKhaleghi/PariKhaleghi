@@ -50,7 +50,7 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
 with open("./README.md", "w") as f:
     pass
 
-rss_title_blog = "<h3>آخرین پست های وبلاگ</h3>"
+rss_title_blog = "### آخرین پست های وبلاگ"
 rss_title_cppRef = "<h3>CppReference</h3><br>"
 readme = Path('./README.md').read_text()
 updated_readme_blog = update_readme_Pari_posts(

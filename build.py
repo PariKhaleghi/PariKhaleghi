@@ -25,7 +25,7 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
                 f'''- [{item['title']}]({item['link']})''')
 
     posts.append(
-        '''<br><br>- *محتوا‌های مفید دیگر در [Parikhalegi.ir](https://parikhaleghi.ir)*''')
+        '''<br><br>- *محتوا‌های دیگر در [Parikhaleghi.ir](https://parikhaleghi.ir)*''')
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
 
@@ -50,7 +50,7 @@ def get_post_from_cpp_reference(Pari_cpp_post, readme_base, join_on):
 with open("./README.md", "w") as f:
     pass
 
-rss_title_blog = "### آخرین پست های وبلاگ"
+rss_title_blog = "### آخرین پست‌های بلاگ"
 rss_title_cppRef = "<h3>CppReference</h3><br>"
 readme = Path('./README.md').read_text()
 updated_readme_blog = update_readme_Pari_posts(

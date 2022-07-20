@@ -4,7 +4,7 @@
 
 محقق، پژوهشگر، توسعه‌دهنده و تحلیل‌گر داده‌های سیستم‌های EBSD - EDS روی میکروسکوپ‌های الکترونی FIB/SEM.
 هم اکنون مشغول در آزمایشگاه TEM و SEM [پرتو رایان رستاک.](https://partowrayan.com/)
-### آخرین پست های وبلاگ
+### آخرین پست‌های بلاگ
 - [معرفی CI/CD](https://parikhaleghi.ir/2022/07/07/ci-cd/)
 - [بخش ۰ – معرفی Intel® Stratix® ۱۰](https://parikhaleghi.ir/2022/05/30/0-intel-stratix-10/)
 - [Event Loop به زبان ساده!](https://parikhaleghi.ir/2022/05/16/basic-event-loop/)
@@ -15,7 +15,7 @@
 - [مشکلات consteval و std::is_constant_evaluated](https://parikhaleghi.ir/2022/02/21/cc-consteval/)
 - [الگوهای مخفف تابع در ++C](https://parikhaleghi.ir/2022/02/20/cc-abbreviated-function-templates/)
 - [سی‌پلاس‌پلاس۲۰ و ماژول‌ها — قسمت سوّم](https://parikhaleghi.ir/2022/02/15/cc-modules-part-3/)
-<br><br>- *محتوا‌های مفید دیگر در [Parikhalegi.ir](https://parikhaleghi.ir)*<br><br><div align="left"><h3>CppReference</h3><br>
+<br><br>- *محتوا‌های دیگر در [Parikhaleghi.ir](https://parikhaleghi.ir)*<br><br><div align="left"><h3>CppReference</h3><br>
 <a href="https://en.cppreference.com/w/c/experimental/dynamic/asprintf">c/experimental/dynamic/asprintf</a>
 <br><p><i>More Contributing in <a href="https://en.cppreference.com/mwiki/index.php?limit=50&tagfilter=&title=Special%3AContributions&contribs=user&target=Parisakhaleghi&namespace=&year=&month=-1">cppreference</a></i></p></div><hr>
 <!-- <div align="center">

@@ -25,7 +25,7 @@ def update_readme_Pari_posts(Pari_post_path, readme_base, join_on):
                 f'''- [{item['title']}]({item['link']})''')
 
     posts.append(
-        '''<br><br>- *محتوا‌های دیگر در [Parikhalegi.ir](https://parikhaleghi.ir)*''')
+        '''<br><br>- *محتوا‌های دیگر در [Parikhaleghi.ir](https://parikhaleghi.ir)*''')
     posts_joined = '\n'.join(posts)
     return readme_base[:readme_base.find(rss_title_blog)] + f"{join_on}\n{posts_joined}"
 

@@ -21,6 +21,15 @@ jobs:
           python-version: '3.8'                                                   
       - name: 💿 Install feedparser & pytz                              
         run: pip install feedparser pytz
+      - name: 💿 delete file README.md                            
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          cd ${GITHUB_WORKSPACE}/
+          git rm README.md
+          git add -A
+          git commit -m "Deleted the README.md file."
+          git push
       - name: 🍳 Update README
         run: |
           cd ${GITHUB_WORKSPACE}/
@@ -29,6 +38,7 @@ jobs:
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add .
+          git add -A
           git commit -am "feat(auto generate): Updated content"
+          git branch --set-upstream-to origin/main
           git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
